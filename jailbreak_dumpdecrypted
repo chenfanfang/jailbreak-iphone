@@ -1,0 +1,7 @@
+#!/bin/bash
+if [[ -z $1 ]];
+then
+    echo Please input executable file.
+else
+    DYLD_INSERT_LIBRARIES=~/jailbreak/files/dumpdecrypted.dylib $1
+fi

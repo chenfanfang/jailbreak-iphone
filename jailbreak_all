@@ -1,11 +1,11 @@
-cd ~/dev/ios_jailbreak_environment/shell 
+currentDir=`dirname $0`
 line="====================================================================="
 title="                     jailbreak all commond                           "
 echo -e "\n\n\n\n"
 echo -e "\033[44m$line\033[0m" 
 echo -e "\033[44m$title\033[0m" 
 echo -e "\033[44m$line\033[0m" 
-ls /var/root/jailbreak -l
+ls -l $currentDir
 
 echo -e "\033[44m$line\033[0m"
 echo -e "\n\n\n\n"

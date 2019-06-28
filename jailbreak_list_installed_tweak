@@ -1,0 +1,16 @@
+cd /Library/MobileSubstrate/DynamicLibraries
+echo -e "\n\n\n\n"
+  line="========================================================================="
+title1="                             tweak安装的目录                                 "
+title2="                             已安装tweak列表                                 "
+echo -e "\033[44m$title1\033[0m"
+
+echo -e "\n"
+pwd
+
+echo -e "\n\n"
+echo -e "\033[44m$title2\033[0m"
+ls -l
+
+
+echo -e "\n\n\n\n"

@@ -1,7 +1,8 @@
 #!/bin/bash
+currentDir=`dirname $0`
 if [[ -z $1 ]];
 then
     echo Please input executable file.
 else
-    DYLD_INSERT_LIBRARIES=~/jailbreak/files/dumpdecrypted.dylib $1
+    DYLD_INSERT_LIBRARIES=$currentDir/files/dumpdecrypted.dylib $1
 fi

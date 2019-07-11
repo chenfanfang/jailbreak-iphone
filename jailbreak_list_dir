@@ -1,0 +1,11 @@
+
+echo -e "\n\n\n"
+echo "SpringBoard dir"
+echo /System/Library/CoreServices/SpringBoard.app
+
+echo -e "\n\n"
+
+echo "KeyChain dir"
+echo "/private/var/Keychains/"
+
+echo -e "\n\n\n"

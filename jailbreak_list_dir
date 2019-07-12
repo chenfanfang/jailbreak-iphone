@@ -8,4 +8,9 @@ echo -e "\n\n"
 echo "KeyChain dir"
 echo "/private/var/Keychains/"
 
+echo -e "\n\n"
+
+echo "Clutched app dir"
+echo "/private/var/mobile/Documents/Dumped/"
+
 echo -e "\n\n\n"

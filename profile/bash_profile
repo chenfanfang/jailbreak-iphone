@@ -1,0 +1,2 @@
+export jailEnv=/var/root/dev/jailbreak-iphone
+export PATH=$PATH:$jailEnv

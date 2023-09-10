@@ -1,0 +1,9 @@
+#!/bin/bash
+currentDir=`dirname $0`
+if [[ -z $1 ]];
+then
+    echo Please input e.
+else
+    #DYLD_INSERT_LIBRARIES=`$currentDir/files/debugserver -x auto *:10020 $1`
+    debugserver -x auto localhost:30011 $1
+fi

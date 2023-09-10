@@ -5,5 +5,5 @@ then
     echo Please input process.
 else
     # DYLD_INSERT_LIBRARIES=`$currentDir/files/debugserver *:10020 -a $1`
-    debugserver localhost:10020 -a $1
+    debugserver localhost:10011 -a $1
 fi

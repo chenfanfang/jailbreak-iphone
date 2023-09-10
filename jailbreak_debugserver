@@ -6,7 +6,7 @@ if [[ -z $1 ]];
 then
     echo "=============================================================="
     echo "默认调试的app是：$process, 如果需要改其他的\n
-          执行 jailbreak_debugserver app"
+          执行 jailbreak_debugserver 你要执行的app"
     echo "=============================================================="
     debugserver localhost:30011 -a $process
 else

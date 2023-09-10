@@ -4,5 +4,6 @@ if [[ -z $1 ]];
 then
     echo Please input e.
 else
-    DYLD_INSERT_LIBRARIES=`$currentDir/files/debugserver -x auto *:10020 $1`
+    #DYLD_INSERT_LIBRARIES=`$currentDir/files/debugserver -x auto *:10020 $1`
+    debugserver -x auto localhost:10020 $1
 fi

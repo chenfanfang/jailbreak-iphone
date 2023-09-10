@@ -2,5 +2,5 @@ export jailEnv=/var/root/dev/jailbreak-iphone
 export PATH=$PATH:$jailEnv
 
 
-export jailDebug=/var/root/dev/jailbreak-iphone/debugserver
-export PATH=$PATH:$jailDebug
+# export jailDebug=/var/root/dev/jailbreak-iphone/debugserver
+# export PATH=$PATH:$jailDebug

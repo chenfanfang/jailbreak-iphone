@@ -1,0 +1,14 @@
+#!/bin/bash
+currentDir=`dirname $0`
+process='NormalApp'
+
+if [[ -z $1 ]];
+then
+    echo "=============================================================="
+    echo "默认调试的app是：$process, 如果需要改其他的\n
+          执行 jailbreak_debugserver_launch_app app"
+    echo "=============================================================="
+else
+    #DYLD_INSERT_LIBRARIES=`$currentDir/files/debugserver -x auto *:10020 $1`
+    debugserver -x auto localhost:30011 $1
+fi

@@ -1,9 +1,0 @@
-#!/bin/bash
-currentDir=`dirname $0`
-if [[ -z $1 ]];
-then
-    echo Please input process.
-else
-    # DYLD_INSERT_LIBRARIES=`$currentDir/files/debugserver *:10020 -a $1`
-    debugserver localhost:30011 -a $1
-fi

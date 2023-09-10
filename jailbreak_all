@@ -6,7 +6,7 @@ echo -e "\033[44m$line\033[0m"
 echo -e "\033[44m$title\033[0m" 
 echo -e "\033[44m$line\033[0m" 
 ls -l $currentDir
-ls -l $currentDir/debugserver
+# ls -l $currentDir/debugserver
 
 echo -e "\033[44m$line\033[0m"
 echo -e "\n\n\n\n"

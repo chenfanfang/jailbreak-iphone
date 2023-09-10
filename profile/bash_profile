@@ -2,5 +2,5 @@ export jailEnv=/var/root/dev/jailbreak-iphone
 export PATH=$PATH:$jailEnv
 
 
-export jailOtherPrograme=/var/root/dev/jailbreak-iphone/files
-export PATH=$PATH:$jailOtherPrograme
+# export jailOtherPrograme=/var/root/dev/jailbreak-iphone/files
+# export PATH=$PATH:$jailOtherPrograme

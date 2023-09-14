@@ -13,4 +13,7 @@ echo -e "\n\n"
 echo "Clutched app dir"
 echo "/private/var/mobile/Documents/Dumped/"
 
+echo "CrackerXI dir"
+echo "/var/mobile/Documents/CrackerXI/"
+
 echo -e "\n\n\n"

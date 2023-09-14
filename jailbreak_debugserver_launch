@@ -5,8 +5,8 @@ process='NormalApp'
 if [[ -z $1 ]];
 then
     echo "=============================================================="
-    echo "默认调试的app是：$process, 如果需要改其他的\n\
-          执行 jailbreak_debugserver_launch_app 你要执行的app"
+    echo "默认调试的app是：$process, 如果需要改其他的，请执行"
+    echo "jailbreak_debugserver_launch_app 你要执行的app"      
     echo "=============================================================="
     debugserver -x auto localhost:30011 $process
 else

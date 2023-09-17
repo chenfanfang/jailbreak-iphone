@@ -18,4 +18,10 @@ echo -e "\n\n"
 echo "CrackerXI dir"
 echo "/var/mobile/Documents/CrackerXI/"
 
+
+echo -e "\n\n"
+
+echo "软件安装的位置"
+echo "/var/containers/Bundle/Application"
+
 echo -e "\n\n\n"
